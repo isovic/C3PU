@@ -1,0 +1,53 @@
+Running: /home/ivan/work/tools/Xilinx/14.6/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -o "/home/ivan/Dropbox/S3/C3PU/testbench_isim_beh.exe" -prj "/home/ivan/Dropbox/S3/C3PU/testbench_beh.prj" "testbench" 
+ISim P.68d (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ivan/Dropbox/S3/C3PU/C3PUlib.vhdl" into library work
+Parsing VHDL file "/home/ivan/Dropbox/S3/C3PU/TriRegister.vhd" into library work
+Parsing VHDL file "/home/ivan/Dropbox/S3/C3PU/shf.vhd" into library work
+Parsing VHDL file "/home/ivan/Dropbox/S3/C3PU/RegisterOE.vhd" into library work
+Parsing VHDL file "/home/ivan/Dropbox/S3/C3PU/registerarray.vhd" into library work
+Parsing VHDL file "/home/ivan/Dropbox/S3/C3PU/Reg.vhd" into library work
+Parsing VHDL file "/home/ivan/Dropbox/S3/C3PU/ControlUnit.vhd" into library work
+Parsing VHDL file "/home/ivan/Dropbox/S3/C3PU/comparator.vhd" into library work
+Parsing VHDL file "/home/ivan/Dropbox/S3/C3PU/ALU.vhd" into library work
+Parsing VHDL file "/home/ivan/Dropbox/S3/C3PU/RAM.vhd" into library work
+Parsing VHDL file "/home/ivan/Dropbox/S3/C3PU/perco.vhd" into library work
+Parsing VHDL file "/home/ivan/Dropbox/S3/C3PU/ledcontroller.vhd" into library work
+Parsing VHDL file "/home/ivan/Dropbox/S3/C3PU/Cpu_blackbox.vhd" into library work
+Parsing VHDL file "/home/ivan/Dropbox/S3/C3PU/clockcontrol.vhd" into library work
+Parsing VHDL file "/home/ivan/Dropbox/S3/C3PU/MC3PU.vhd" into library work
+Parsing VHDL file "/home/ivan/Dropbox/S3/C3PU/tb_mc3pu.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 98720 KB
+Fuse CPU Usage: 970 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package c3pulib
+Compiling architecture behavioral of entity clockcontrol [\clockcontrol(2500000)\]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity Reg [reg_default]
+Compiling architecture behavioral of entity TriRegister [triregister_default]
+Compiling architecture behavioral of entity RegisterOE [registeroe_default]
+Compiling architecture behavioral of entity comparator [comparator_default]
+Compiling architecture behavioral of entity registerarray [registerarray_default]
+Compiling architecture behavioral of entity shf [shf_default]
+Compiling architecture behavioral of entity ControlUnit [controlunit_default]
+Compiling architecture behavioral of entity Cpu_blackbox [cpu_blackbox_default]
+Compiling architecture rtl of entity perco [perco_default]
+Compiling architecture behavioral of entity RAM [ram_default]
+Compiling architecture behavioral of entity ledcontroller [ledcontroller_default]
+Compiling architecture behavioral of entity MC3PU [mc3pu_default]
+Compiling architecture behavior of entity testbench
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 35 VHDL Units
+Built simulation executable /home/ivan/Dropbox/S3/C3PU/testbench_isim_beh.exe
+Fuse Memory Usage: 1201716 KB
+Fuse CPU Usage: 1140 ms
+GCC CPU Usage: 140 ms
