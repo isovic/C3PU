@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ivan/Dropbox/S3/C3PU/testbench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="c3pulib" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/testbench/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/cpuComponent/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/cpuComponent/rw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rw</obj_property>
+      <obj_property name="ObjectShortName">rw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/cpuComponent/ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/databus" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">databus[15:0]</obj_property>
+      <obj_property name="ObjectShortName">databus[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/addressbus" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addressbus[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addressbus[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/clock_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/cpuComponent/CU/current_s" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">current_s</obj_property>
+      <obj_property name="ObjectShortName">current_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/cpuComponent/CU/next_s" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">next_s</obj_property>
+      <obj_property name="ObjectShortName">next_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/ledComponent/led_mem_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led_mem_data[0:1]</obj_property>
+      <obj_property name="ObjectShortName">led_mem_data[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/cpuComponent/CU/dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group15" type="group">
+      <obj_property name="label">comp</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/uut/cpuComponent/comp/a" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">a[15:0]</obj_property>
+         <obj_property name="ObjectShortName">a[15:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/comp/b" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">b[15:0]</obj_property>
+         <obj_property name="ObjectShortName">b[15:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/comp/sel" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sel[2:0]</obj_property>
+         <obj_property name="ObjectShortName">sel[2:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/comp/y" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">y</obj_property>
+         <obj_property name="ObjectShortName">y</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/cpuComponent/Reg_Address/curr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">curr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">curr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/cpuComponent/PC/currentstate" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">currentstate[15:0]</obj_property>
+      <obj_property name="ObjectShortName">currentstate[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group9" type="group">
+      <obj_property name="label">aluint</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/uut/cpuComponent/alunit/a" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">a[15:0]</obj_property>
+         <obj_property name="ObjectShortName">a[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/alunit/s" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/alunit/b" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">b[15:0]</obj_property>
+         <obj_property name="ObjectShortName">b[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/alunit/y" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">y[15:0]</obj_property>
+         <obj_property name="ObjectShortName">y[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group10" type="group">
+      <obj_property name="label">reg-adress</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Reg_Address/d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">d[15:0]</obj_property>
+         <obj_property name="ObjectShortName">d[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Reg_Address/clock" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+         <obj_property name="label">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Reg_Address/q" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">q[15:0]</obj_property>
+         <obj_property name="ObjectShortName">q[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Reg_Address/curr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">curr[15:0]</obj_property>
+         <obj_property name="ObjectShortName">curr[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group11" type="group">
+      <obj_property name="label">Instr-reg</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Instr_reg/d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">d[15:0]</obj_property>
+         <obj_property name="ObjectShortName">d[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Instr_reg/clock" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Instr_reg/en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Instr_reg/q" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">q[15:0]</obj_property>
+         <obj_property name="ObjectShortName">q[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Instr_reg/currentstate" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">currentstate[15:0]</obj_property>
+         <obj_property name="ObjectShortName">currentstate[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group12" type="group">
+      <obj_property name="label">Reg-op</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Reg_OP/d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">d[15:0]</obj_property>
+         <obj_property name="ObjectShortName">d[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Reg_OP/clock" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Reg_OP/en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Reg_OP/q" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">q[15:0]</obj_property>
+         <obj_property name="ObjectShortName">q[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Reg_OP/currentstate" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">currentstate[15:0]</obj_property>
+         <obj_property name="ObjectShortName">currentstate[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group13" type="group">
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/uut/cpuComponent/PC/d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">d[15:0]</obj_property>
+         <obj_property name="ObjectShortName">d[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/PC/clock" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/PC/we" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/PC/oe" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">oe</obj_property>
+         <obj_property name="ObjectShortName">oe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/PC/q" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">q[15:0]</obj_property>
+         <obj_property name="ObjectShortName">q[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/PC/currentstate" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">currentstate[15:0]</obj_property>
+         <obj_property name="ObjectShortName">currentstate[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group14" type="group">
+      <obj_property name="label">Acc-reg</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Acc_reg/d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">d[15:0]</obj_property>
+         <obj_property name="ObjectShortName">d[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Acc_reg/clock" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Acc_reg/we" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Acc_reg/oe" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">oe</obj_property>
+         <obj_property name="ObjectShortName">oe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Acc_reg/q" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">q[15:0]</obj_property>
+         <obj_property name="ObjectShortName">q[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Acc_reg/currentstate" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">currentstate[15:0]</obj_property>
+         <obj_property name="ObjectShortName">currentstate[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group16" type="group">
+      <obj_property name="label">regbank</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Regbank/data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Regbank/clock" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Regbank/sel" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sel[2:0]</obj_property>
+         <obj_property name="ObjectShortName">sel[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Regbank/we" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Regbank/oe" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">oe</obj_property>
+         <obj_property name="ObjectShortName">oe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Regbank/q" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">q[15:0]</obj_property>
+         <obj_property name="ObjectShortName">q[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Regbank/ram" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ram[0:7]</obj_property>
+         <obj_property name="ObjectShortName">ram[0:7]</obj_property>
+         <wvobject fp_name="/testbench/uut/cpuComponent/Regbank/ram[0]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">ram[0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/uut/cpuComponent/Regbank/ram[1]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">ram[1]</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#ffff00</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/uut/cpuComponent/Regbank/ram[2]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">ram[2]</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#ffff00</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/uut/cpuComponent/Regbank/ram[3]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">ram[3]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/uut/cpuComponent/Regbank/ram[4]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">ram[4]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/uut/cpuComponent/Regbank/ram[5]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[5]</obj_property>
+            <obj_property name="ObjectShortName">ram[5]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/uut/cpuComponent/Regbank/ram[6]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[6]</obj_property>
+            <obj_property name="ObjectShortName">ram[6]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/uut/cpuComponent/Regbank/ram[7]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[7]</obj_property>
+            <obj_property name="ObjectShortName">ram[7]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group17" type="group">
+      <obj_property name="label">shifter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Shifter/d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">d[15:0]</obj_property>
+         <obj_property name="ObjectShortName">d[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Shifter/sel" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sel[2:0]</obj_property>
+         <obj_property name="ObjectShortName">sel[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/Shifter/q" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">q[15:0]</obj_property>
+         <obj_property name="ObjectShortName">q[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group18" type="group">
+      <obj_property name="label">CU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/uut/cpuComponent/CU/clock" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/CU/reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/CU/ready" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ready</obj_property>
+         <obj_property name="ObjectShortName">ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/CU/comp_out" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">comp_out</obj_property>
+         <obj_property name="ObjectShortName">comp_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/CU/rw" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rw</obj_property>
+         <obj_property name="ObjectShortName">rw</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/CU/ce" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ce</obj_property>
+         <obj_property name="ObjectShortName">ce</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/CU/ctrl_regarray" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ctrl_regarray[5:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_regarray[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/CU/ctrl_op" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ctrl_op[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_op[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/CU/ctrl_address" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ctrl_address</obj_property>
+         <obj_property name="ObjectShortName">ctrl_address</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/CU/ctrl_pc" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ctrl_pc[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_pc[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/CU/ctrl_acc" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ctrl_acc[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_acc[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/CU/ctrl_shift" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ctrl_shift[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_shift[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/CU/ctrl_alu" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ctrl_alu[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_alu[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/CU/ctrl_instr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ctrl_instr[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_instr[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/CU/ctrl_comp" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ctrl_comp[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_comp[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/CU/instructionin" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">instructionin[15:0]</obj_property>
+         <obj_property name="ObjectShortName">instructionin[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/CU/dataout" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dataout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">dataout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/CU/current_s" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">current_s</obj_property>
+         <obj_property name="ObjectShortName">current_s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/cpuComponent/CU/next_s" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">next_s</obj_property>
+         <obj_property name="ObjectShortName">next_s</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group19" type="group">
+      <obj_property name="label">Ram</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/uut/ramComponent/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/ramComponent/we" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/ramComponent/en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/ramComponent/addr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">addr[15:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/ramComponent/data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/ramComponent/ready" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ready</obj_property>
+         <obj_property name="ObjectShortName">ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/uut/ramComponent/ram_data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ram_data[0:16]</obj_property>
+         <obj_property name="ObjectShortName">ram_data[0:16]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

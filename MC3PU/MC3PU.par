@@ -1,0 +1,313 @@
+Release 14.6 par P.68d (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+ivan-T530::  Fri Aug 16 17:31:07 2013
+
+par -w -intstyle ise -ol high -t 1 MC3PU_map.ncd MC3PU.ncd MC3PU.pcf 
+
+
+Constraints file: MC3PU.pcf.
+Loading device for application Rf_Device from file '3s700a.nph' in environment
+/home/ivan/work/tools/Xilinx/14.6/ISE_DS/ISE/.
+   "MC3PU" is an NCD, version 3.2, device xc3s700an, package fgg484, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "PRODUCTION 1.42 2013-06-08".
+
+
+Design Summary Report:
+
+ Number of External IOBs                          10 out of 372     2%
+
+   Number of External Input IOBs                  2
+
+      Number of External Input IBUFs              2
+        Number of LOCed External Input IBUFs      2 out of 2     100%
+
+
+   Number of External Output IOBs                 8
+
+      Number of External Output IOBs              8
+        Number of LOCed External Output IOBs      8 out of 8     100%
+
+
+   Number of External Bidir IOBs                  0
+
+
+   Number of BUFGMUXs                        2 out of 24      8%
+   Number of Slices                        406 out of 5888    6%
+      Number of SLICEMs                     16 out of 2944    1%
+
+
+
+Overall effort level (-ol):   High 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 1
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 1 secs 
+Finished initial Timing Analysis.  REAL time: 1 secs 
+
+
+Starting Placer
+Total REAL time at the beginning of Placer: 1 secs 
+Total CPU  time at the beginning of Placer: 1 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:24b05793) REAL time: 2 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:24b05793) REAL time: 2 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:24b05793) REAL time: 2 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+
+Phase 4.2  Initial Clock and IO Placement (Checksum:d4ad67c8) REAL time: 4 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:d4ad67c8) REAL time: 4 secs 
+
+Phase 6.36  Local Placement Optimization
+Phase 6.36  Local Placement Optimization (Checksum:d4ad67c8) REAL time: 4 secs 
+
+Phase 7.8  Global Placement
+.................................................
+......
+................................................................................
+............................................
+.................................................................
+Phase 7.8  Global Placement (Checksum:a207bac0) REAL time: 4 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:a207bac0) REAL time: 4 secs 
+
+Phase 9.18  Placement Optimization
+Phase 9.18  Placement Optimization (Checksum:f5d6818) REAL time: 5 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:f5d6818) REAL time: 5 secs 
+
+Total REAL time to Placer completion: 5 secs 
+Total CPU  time to Placer completion: 5 secs 
+Writing design to file MC3PU.ncd
+
+
+
+Starting Router
+
+
+Phase  1  : 2912 unrouted;      REAL time: 8 secs 
+
+Phase  2  : 2716 unrouted;      REAL time: 9 secs 
+
+Phase  3  : 943 unrouted;      REAL time: 9 secs 
+
+Phase  4  : 1050 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+
+Updating file: MC3PU.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
+
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 13 secs 
+
+Updating file: MC3PU.ncd with current fully routed design.
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 13 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 13 secs 
+
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 13 secs 
+
+Phase 11  : 0 unrouted; (Par is working to improve performance)     REAL time: 13 secs 
+WARNING:Route:455 - CLK Net:cpuComponent/CU/Ctrl_ACC_2_or0000 may have excessive skew because 
+      2 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:cpuComponent/CU/Ctrl_Instr_or0000 may have excessive skew because 
+      1 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:cpuComponent/CU/Ctrl_ACC<0> may have excessive skew because 
+      11 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:cpuComponent/CU/Ctrl_RegArray_5_or0000 may have excessive skew because 
+      0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:ready may have excessive skew because 
+      1 CLK pins and 6 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:cpuComponent/CU/current_s_FSM_FFd32 may have excessive skew because 
+      0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:cpuComponent/CU/current_s_FSM_FFd105 may have excessive skew because 
+      1 CLK pins and 16 NON_CLK pins failed to route using a CLK template.
+
+Total REAL time to Router completion: 13 secs 
+Total CPU time to Router completion: 13 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/Reg_Add |              |      |      |            |             |
+|        ress/curr<0> | BUFGMUX_X1Y10| No   |   16 |  0.043     |  1.024      |
++---------------------+--------------+------+------+------------+-------------+
+|         clock_BUFGP | BUFGMUX_X2Y11| No   |   71 |  0.119     |  1.099      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/Ctrl |              |      |      |            |             |
+|       _ACC_2_or0000 |         Local|      |    2 |  0.511     |  1.219      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/Ctrl |              |      |      |            |             |
+|       _ACC_0_or0000 |         Local|      |    1 |  0.000     |  1.183      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/Ctrl |              |      |      |            |             |
+|     _Address_or0000 |         Local|      |    1 |  0.000     |  0.723      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/Mtri |              |      |      |            |             |
+|  en_dataOut_not0001 |         Local|      |    1 |  0.000     |  0.624      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/curr |              |      |      |            |             |
+|    ent_s_FSM_FFd105 |         Local|      |   29 |  0.475     |  1.779      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/Ctrl |              |      |      |            |             |
+|       _Instr_or0000 |         Local|      |    2 |  0.948     |  1.571      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/regs |              |      |      |            |             |
+|           el_or0000 |         Local|      |    3 |  0.258     |  0.691      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/Ctrl |              |      |      |            |             |
+|       _Shift_or0000 |         Local|      |    6 |  0.065     |  1.698      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/Ctrl |              |      |      |            |             |
+|           _Instr<0> |         Local|      |   10 |  0.075     |  1.631      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/Ctrl |              |      |      |            |             |
+|             _ACC<0> |         Local|      |   16 |  1.722     |  3.347      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/Ctrl |              |      |      |            |             |
+|  _RegArray_0_or0000 |         Local|      |    1 |  0.000     |  0.624      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/Ctrl |              |      |      |            |             |
+|  _RegArray_5_or0000 |         Local|      |    4 |  0.095     |  2.135      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/Ctrl |              |      |      |            |             |
+|              _PC<0> |         Local|      |   13 |  0.095     |  2.180      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/Ctrl |              |      |      |            |             |
+|            _Address |         Local|      |    4 |  0.158     |  2.309      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/curr |              |      |      |            |             |
+|     ent_s_FSM_FFd32 |         Local|      |    3 |  0.003     |  1.701      |
++---------------------+--------------+------+------+------------+-------------+
+|               ready |         Local|      |    7 |  0.000     |  0.410      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/Ctrl |              |      |      |            |             |
+|          _PC_or0000 |         Local|      |    3 |  0.012     |  1.632      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/Ctrl |              |      |      |            |             |
+|        _Op_0_or0000 |         Local|      |    1 |  0.000     |  1.092      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/Ctrl |              |      |      |            |             |
+|              _Op<0> |         Local|      |    8 |  0.181     |  2.239      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/RW_o |              |      |      |            |             |
+|               r0000 |         Local|      |    2 |  0.008     |  0.407      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/Ctrl |              |      |      |            |             |
+| _RegArray_2_not0001 |         Local|      |    1 |  0.000     |  1.167      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/Ctrl |              |      |      |            |             |
+|        _RegArray<0> |         Local|      |    8 |  0.039     |  1.635      |
++---------------------+--------------+------+------+------------+-------------+
+|cpuComponent/CU/Ctrl |              |      |      |            |             |
+|  _RegArray_1_or0000 |         Local|      |    1 |  0.000     |  1.365      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net cpu | SETUP       |         N/A|    10.766ns|     N/A|           0
+  Component/Reg_Address/curr<0>             | HOLD        |     3.084ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clo | SETUP       |         N/A|     9.357ns|     N/A|           0
+  ck_BUFGP                                  | HOLD        |     0.892ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net cpu | SETUP       |         N/A|     2.029ns|     N/A|           0
+  Component/CU/current_s_FSM_FFd105         | HOLD        |     1.360ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net cpu | SETUP       |         N/A|     2.295ns|     N/A|           0
+  Component/CU/regsel_or0000                | HOLD        |     1.355ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net cpu | SETUP       |         N/A|    10.848ns|     N/A|           0
+  Component/CU/Ctrl_ACC<0>                  | HOLD        |     3.320ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net cpu | SETUP       |         N/A|     6.487ns|     N/A|           0
+  Component/CU/Ctrl_PC<0>                   | HOLD        |     2.488ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net cpu | SETUP       |         N/A|     7.417ns|     N/A|           0
+  Component/CU/Ctrl_Address                 | HOLD        |     2.442ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net cpu | SETUP       |         N/A|     6.353ns|     N/A|           0
+  Component/CU/Ctrl_RegArray<0>             | HOLD        |     3.458ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 14 secs 
+Total CPU time to PAR completion: 14 secs 
+
+Peak Memory Usage:  628 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 7
+Number of info messages: 1
+
+Writing design to file MC3PU.ncd
+
+
+
+PAR done!

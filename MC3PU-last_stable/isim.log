@@ -1,0 +1,15 @@
+ISim log file
+Running: /home/ivan/Dropbox/S3/backup-C3PU/testbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ivan/Dropbox/S3/backup-C3PU/testbench_isim_beh.wdb 
+ISim P.68d (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 485 ns(2), Instance /testbench/uut/cpuComponent/alunit/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# exit 0
