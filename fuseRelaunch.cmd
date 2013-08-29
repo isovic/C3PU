@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "/home/ivan/Dropbox/S3/C3PU/testbench_isim_beh.exe" -prj "/home/ivan/Dropbox/S3/C3PU/testbench_beh.prj" "testbench" 

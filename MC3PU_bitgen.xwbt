@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=/home/ivan/Dropbox/S3/C3PU/MC3PU.ncd
-OUTFILE=/home/ivan/Dropbox/S3/C3PU/MC3PU.bit
-FAMILY=Spartan3A and Spartan3AN
-PART=xc3s700an-4fgg484
-WORKINGDIR=/home/ivan/Dropbox/S3/C3PU
-LICENSE=WebPack
-USER_INFO=174393577_0_0_258
